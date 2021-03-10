@@ -12,8 +12,7 @@
 }
 .d-social{
   text-align: center;
-  padding-left:2.5rem;
-  margin-left: 2rem;
+  margin-left: 10rem;
 }
 .social-pages{
   margin-top: 20px;
@@ -31,8 +30,13 @@
 
   }
 .social-links li {
-  display:inline;
+  display:inline;}
+  .social-links{
+    margin-left: 0px;
+    padding-left: 0px;
+
 }
+
 /*.social-pages{
   text-align: center;
 }*/
