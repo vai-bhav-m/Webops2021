@@ -1,0 +1,55 @@
+.meaicon{
+  width:10rem;
+  height:10rem;
+  margin-left: 2.5rem;
+  border-radius: 20%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.d-mea{
+  text-align: center;
+  margin-left: 10rem;
+}
+.d-social{
+  text-align: center;
+  padding-left:2.5rem;
+  margin-left: 2rem;
+}
+.social-pages{
+  margin-top: 20px;
+}
+.no-margin{
+  margin: 0px;
+}
+.soc-icons{
+  color:#00adb5;
+  margin:auto 10px;
+
+}
+.soc-icons:hover{
+  color: #9ecca4;
+
+  }
+.social-links li {
+  display:inline;
+}
+/*.social-pages{
+  text-align: center;
+}*/
+.contact li{
+  list-style-type: none;
+}
+.whole{
+  background-color: #393e46;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.row{
+  color:#fff;
+}
+.footnote{
+  padding: 10px;
+  background-color: #808080;
+  color:black;
+  text-align: center;
+}
