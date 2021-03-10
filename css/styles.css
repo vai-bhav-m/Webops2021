@@ -57,3 +57,25 @@
   color:black;
   text-align: center;
 }
+
+/* Flowchart section */
+
+#flowchart {
+  text-align: center;
+  background-color: #112d4e;
+  padding: 7% 0;
+}
+
+.flowhead {
+  color: white;
+}
+
+.flowrow {
+  padding: 5% 5%;
+  color: black;
+}
+
+}
+.overview {
+  color: black;
+}
