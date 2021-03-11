@@ -79,3 +79,65 @@
 .overview {
   color: black;
 }
+/* ABOUT US SECTION SSSSSSSS***************************************/
+
+.aboutushead{
+font-family: 'Almendra SC', serif;
+position: absolute;
+top: 4%;
+left: 45%;
+font-size: 2 em;
+box-shadow: 4px 4px 6px;
+text-shadow: 2px 2px 4px;
+color: black;
+padding: 10px;
+background-color:#00FFFF;
+border-radius: 15px;}
+.aboutusmechgif{
+  position: relative;
+  left: 5%;
+  height: 100%;
+  width: 90%;
+}
+.aboutusmatter{
+  justify-content: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.aboutusmain{
+  width: 90%;
+  justify-content: center;
+  position: absolute;
+  left:7%;
+  top: 20%;
+}
+.aboutusmain2{
+  width: 50%;
+  position: absolute;
+  left:20%;
+  top: 90%;
+}
+.aboutusquote{
+  font-family: 'Pacifico', cursive;
+  color:white;
+  position: absolute;
+  bottom: 0%;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+ .aboutuswords{font-family: 'Yanone Kaffeesatz', sans-serif;
+
+  position: absolute;
+  color: white;
+  font-size: 1.7em;
+  top: 11%;
+  left: 5%;
+  line-height: 70px;
+}
+/*END OF THE ABOUT US SECTION*/
