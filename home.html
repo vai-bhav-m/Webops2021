@@ -16,15 +16,21 @@
     .event-logo{
         -webkit-filter: invert(100%);
         filter: invert(100%);
-        height:150px;
-        width:150px;
+        height:200px;
+        width:200px;
+        padding-left:50px;
+        padding-right:0px;
+        padding-top:25px;
+        padding-bottom:0px;
+        margin-right:0px;
     }
     .event-title{
         color:#C0C0C0;
         text-shadow:0 0 15px #6e7c7c,0 0 15px #6e7c7c,0 0 15px #6e7c7c,0 0 15px #6e7c7c;
         font-family:Rubik;
         font-size:150px;
-        margin:0;
+        padding-left:50px;
+        margin-left:0px;
     }
     .event-date{
         color:white;
@@ -46,6 +52,7 @@
     }
     .year-table{
         margin-left:50px;
+        margin-top:0px;
     }
     .event-table{
         margin-top:0px;
@@ -63,6 +70,9 @@
     .nav-gear {
         margin-right:150px;
         position:relative;
+        transition: transform 1s;
+        padding-left:200px;
+        margin-right:0px;
     }
     .letters {
         position:absolute;
@@ -73,88 +83,138 @@
         padding-bottom:100px;
         width:30px;
     }
+    .t{
+        margin:0;
+    }
                 #nb-1-1{
                     transform: rotate(-25deg);
+                    transition: transform 1s;
+
                 }
                 #nb-1-2{
                     transform: rotate(-15deg);
+                    transition: transform 1s;
+
                 }
                 #nb-1-3{
                     transform: rotate(-5deg);
+                    transition: transform 1s;
+
                 }
                 #nb-1-4{
                     transform: rotate(6deg);
+                    transition: transform 1s;
+
                 }
                 #nb-1-5{
                     transform: rotate(14deg);
+                    transition: transform 1s;
+
                 }
                 #nb-1-6{
                     transform: rotate(24deg);
+                    transition: transform 1s;
+
                 }
 
                 #nb-2-1{
                     transform: rotate(65deg);
+                    transition: transform 1s;
+
                 }
                 #nb-2-2{
                     transform: rotate(78deg);
+                    transition: transform 1s;
                 }
                 #nb-2-3{
                     transform: rotate(90deg);
+                    transition: transform 1s;
+
                 }
                 #nb-2-4{
                     transform: rotate(102deg);
+                    transition: transform 1s;
+
                 }
                 #nb-2-5{
                     transform: rotate(112deg);
+                    transition: transform 1s;
+
                 }
 
                 #nb-3-1{
                     transform: rotate(162deg);
+                    transition: transform 1s;
+
                 }
                 #nb-3-2{
                     transform: rotate(171deg);
+                    transition: transform 1s;
+
                 }
                 #nb-3-3{
                     transform: rotate(182deg);
+                    transition: transform 1s;
+
                 }
                 #nb-3-4{
                     transform: rotate(194deg);
+                    transition: transform 1s;
+
                 }
 
                 #nb-4-1{
                     transform: rotate(258deg);
+                    transition: transform 1s;
+
                     padding-bottom: 150px;
                     top:-50px;
                 }
                 #nb-4-2{
                     transform: rotate(271deg);
+                    transition: transform 1s;
+
                     padding-bottom: 150px;
                     top:-50px;
                 }
                 #nb-4-3{
                     transform: rotate(277deg);
+                    transition: transform 1s;
+
                     padding-bottom: 150px;
                     top:-50px;
                 }
                 #nb-4-4{
                     transform: rotate(285deg);
+                    transition: transform 1s;
+
                     padding-bottom: 150px;
                     top:-50px;
                 }
                 #nb-4-5{
                     transform: rotate(248deg);
+                    transition: transform 1s;
+
                 }
                 #nb-4-6{
                     transform: rotate(261deg);
+                    transition: transform 1s;
+
                 }
                 #nb-4-7{
                     transform: rotate(273deg);
+                    transition: transform 1s;
+
                 }
                 #nb-4-8{
                     transform: rotate(285deg);
+                    transition: transform 1s;
+
                 }
                 #nb-4-9{
                     transform: rotate(295deg);
+                    transition: transform 1s;
+
                 }
                 .mid-light:hover {
                     font-size:100px;
@@ -165,94 +225,197 @@
                     font-size:100px;
                     color:#949400;
                 }
+
 </style>
 </head>
-<body style="background-color:white;position:relative;margin:0;">
-    <div style="background-color:black;padding:20px 0 200px;">
-    <div class="row">
-            <div class="col-lg-2"><img class="images/event-logo col-lg-2" src="https://pbs.twimg.com/profile_images/441576667253731328/wSmEP_Wf_400x400.png"></div>
-            <div class="col-lg-10"><p class="event-title col-lg-6">MECHANICA</p></div>
-        </div>
-        <table class="year-table" cellspacing="20px" cellpadding="20px;">
-            <tr>
-                <td><h1 class="year-num">2</h1></td>
-                <td><img src="https://i.gifer.com/PSef.gif" class="year-gear"></td>
-                <td><h1 class="year-num">2</h1></td>
-                <td><h1 class="year-num">1</h1></td>
-            </tr>
+<div style="background-color:black;position:relative;margin:0px;">
+        <table cellpadding="20px" cellspacing="0px" class="t">
+        <td>
+            <div class="row">
+                <div class="col-lg-2 col-sm-2 "><img class="event-logo col-lg-2" src="https://pbs.twimg.com/profile_images/441576667253731328/wSmEP_Wf_400x400.png"></div>
+                <div class="col-lg-8 col-sm-12"><p class="event-title col-lg-6">MECHANICA</p></div>
+            </div>
+        </td>
         </table>
-    <p class="event-date">April 9th-11th</p>
-        <div align="right" class="nav-gear">
-            <div style="position:absolute;right:115px;top:-70px;">
-                <div class="mid-light">
-                <span class="letters" id="nb-1-1">E</span>
-                <span class="letters" id="nb-1-2">v</span>
-                <span class="letters" id="nb-1-3">e</span>
-                <span class="letters" id="nb-1-4">n</span>
-                <span class="letters" id="nb-1-5">t</span>
-                <span class="letters" id="nb-1-6">s</span>
+<div class="row">
+    <div class="col-lg-6">
+                <table class="year-table" cellspacing="20px" cellpadding="20px;">
+                    <tr>
+                        <td><h1 class="year-num">2</h1></td>
+                        <td><img src="https://i.gifer.com/PSef.gif" class="year-gear"></td>
+                        <td><h1 class="year-num">2</h1></td>
+                        <td><h1 class="year-num">1</h1></td>
+                    </tr>
+                </table>
+                <br>
+                <p class="event-date">April 9th-11th</p>
+</div>
+    <div class="col-lg-6">
+                <div style="position:absolute;right:115px;top:-70px;">
+                    <div class="mid-light a">
+                        <span class="letters" id="nb-1-1">E</span>
+                        <span class="letters" id="nb-1-2">v</span>
+                        <span class="letters" id="nb-1-3">e</span>
+                        <span class="letters" id="nb-1-4">n</span>
+                        <span class="letters" id="nb-1-5">t</span>
+                        <span class="letters" id="nb-1-6">s</span>
                     </div>
-<div class="mid-light">
-                <span class="letters" id="nb-2-1">S</span>
-                <span class="letters" id="nb-2-2">p</span>
-                <span class="letters" id="nb-2-3">o</span>
-                <span class="letters" id="nb-2-4">n</span>
-                <span class="letters" id="nb-2-5">s</span>
+                    <div class="mid-light b">
+                        <span class="letters" id="nb-2-1">S</span>
+                        <span class="letters" id="nb-2-2">p</span>
+                        <span class="letters" id="nb-2-3">o</span>
+                        <span class="letters" id="nb-2-4">n</span>
+                        <span class="letters" id="nb-2-5">s</span>
+                    </div>
+                    <div class="mid-light c">
+                        <span class="letters" id="nb-3-1">T</span>
+                        <span class="letters" id="nb-3-2">e</span>
+                        <span class="letters" id="nb-3-3">a</span>
+                        <span class="letters" id="nb-3-4">m</span>
+                    </div>
+                    <div class="mid-light d">
+                        <span class="letters" id="nb-4-1">W</span>
+                        <span class="letters" id="nb-4-2">o</span>
+                        <span class="letters" id="nb-4-3">r</span>
+                        <span class="letters" id="nb-4-4">k</span>
+                        <span class="letters" id="nb-4-5">S</span>
+                        <span class="letters" id="nb-4-6">h</span>
+                        <span class="letters" id="nb-4-7">o</span>
+                        <span class="letters" id="nb-4-8">p</span>
+                        <span class="letters" id="nb-4-9">s</span>
+                    </div>
                 </div>
-<div class="mid-light">
-                <span class="letters" id="nb-3-1">T</span>
-                <span class="letters" id="nb-3-2">e</span>
-                <span class="letters" id="nb-3-3">a</span>
-                <span class="letters" id="nb-3-4">m</span>
-            </div>
-<div class="mid-light">
-                <span class="letters" id="nb-4-1">W</span>
-                <span class="letters" id="nb-4-2">o</span>
-                <span class="letters" id="nb-4-3">r</span>
-                <span class="letters" id="nb-4-4">k</span>
-                <span class="letters" id="nb-4-5">S</span>
-                <span class="letters" id="nb-4-6">h</span>
-                <span class="letters" id="nb-4-7">o</span>
-                <span class="letters" id="nb-4-8">p</span>
-                <span class="letters" id="nb-4-9">s</span>
-        </div>
+                    <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Gear_7.svg/1200px-Gear_7.svg.png">
+                </div>
+</div>
+
+<script>
+    document.querySelector(".a").addEventListener("click", moven);
+    function moven() {
+        document.querySelector(".nav-gear").style.transform = "rotate(0deg)";
+        document.querySelector("#nb-1-1").style.transform = "rotate(-25deg)";
+        document.querySelector("#nb-1-2").style.transform = "rotate(-15deg)";
+        document.querySelector("#nb-1-3").style.transform = "rotate(-5deg)";
+        document.querySelector("#nb-1-4").style.transform = "rotate(6deg)";
+        document.querySelector("#nb-1-5").style.transform = "rotate(14deg)";
+        document.querySelector("#nb-1-6").style.transform = "rotate(24deg)";
+
+        document.querySelector("#nb-2-1").style.transform = "rotate(65deg)";
+        document.querySelector("#nb-2-2").style.transform = "rotate(78deg)";
+        document.querySelector("#nb-2-3").style.transform = "rotate(90deg)";
+        document.querySelector("#nb-2-4").style.transform = "rotate(102deg)";
+        document.querySelector("#nb-2-5").style.transform = "rotate(112deg)";
+
+        document.querySelector("#nb-3-1").style.transform = "rotate(162deg)";
+        document.querySelector("#nb-3-2").style.transform = "rotate(171deg)";
+        document.querySelector("#nb-3-3").style.transform = "rotate(182deg)";
+        document.querySelector("#nb-3-4").style.transform = "rotate(194deg)";
+
+        document.querySelector("#nb-4-1").style.transform = "rotate(258deg)";
+        document.querySelector("#nb-4-2").style.transform = "rotate(271deg)";
+        document.querySelector("#nb-4-3").style.transform = "rotate(277deg)";
+        document.querySelector("#nb-4-4").style.transform = "rotate(285deg)";
+        document.querySelector("#nb-4-5").style.transform = "rotate(248deg)";
+        document.querySelector("#nb-4-6").style.transform = "rotate(261deg)";
+        document.querySelector("#nb-4-7").style.transform = "rotate(273deg)";
+        document.querySelector("#nb-4-8").style.transform = "rotate(285deg)";
+        document.querySelector("#nb-4-9").style.transform = "rotate(295deg)";
+}
 
 
+    document.querySelector(".b").addEventListener("click", movee);
+    function movee() {
+        document.querySelector("#nb-1-1").style.transform = "rotate(-115deg)";
+        document.querySelector("#nb-1-2").style.transform = "rotate(-105deg)";
+        document.querySelector("#nb-1-3").style.transform = "rotate(-95deg)";
+        document.querySelector("#nb-1-4").style.transform = "rotate(-84deg)";
+        document.querySelector("#nb-1-5").style.transform = "rotate(-76deg)";
+        document.querySelector("#nb-1-6").style.transform = "rotate(-66deg)";
 
-            </div>
-            <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Gear_7.svg/1200px-Gear_7.svg.png">
-       </div>
-    </div>
-        <div id="carouselExampleIndicators" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="height:5px;"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="height:5px;"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://res.cloudinary.com/highereducation/image/upload/f_auto,fl_lossy,q_auto/c_fill,w_1200,h_628/v1566232749/BestColleges.com/BC-Career-Mechanical_engineering_vu3sha.jpg" style="height:700px;width:100%;">
-            </div>
-            <div class="carousel-item">
-                <img src="https://engineering.tamu.edu/engineering-online/_files/_images/_content-images/engineering-online-mechanical-29Apr2019.jpg" style="height:700px;width:100%;">
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <table align="center" cellpadding="20px">
-            <tr>
-                <td>
-                    <a href="https://www.instagram.com/mechanica.iitmadras">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" height="40px" width="40px">
-                    </a>
-                </td>
-                <td>
-                    <a href="https://www.facebook.com/mechanica.iitm/"><img
-                            src="https://cdn.iconscout.com/icon/free/png-256/facebook-logo-2019-1597680-1350125.png"
-                            height="40px" width="40px">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </div>
+        document.querySelector("#nb-2-1").style.transform = "rotate(-25deg)";
+        document.querySelector("#nb-2-2").style.transform = "rotate(-12deg)";
+        document.querySelector("#nb-2-3").style.transform = "rotate(0deg)";
+        document.querySelector("#nb-2-4").style.transform = "rotate(12deg)";
+        document.querySelector("#nb-2-5").style.transform = "rotate(22deg)";
+
+        document.querySelector("#nb-3-1").style.transform = "rotate(72deg)";
+        document.querySelector("#nb-3-2").style.transform = "rotate(81deg)";
+        document.querySelector("#nb-3-3").style.transform = "rotate(92deg)";
+        document.querySelector("#nb-3-4").style.transform = "rotate(104deg)";
+
+        document.querySelector("#nb-4-1").style.transform = "rotate(168deg)";
+        document.querySelector("#nb-4-2").style.transform = "rotate(181deg)";
+        document.querySelector("#nb-4-3").style.transform = "rotate(187deg)";
+        document.querySelector("#nb-4-4").style.transform = "rotate(195deg)";
+        document.querySelector("#nb-4-5").style.transform = "rotate(158deg)";
+        document.querySelector("#nb-4-6").style.transform = "rotate(171deg)";
+        document.querySelector("#nb-4-7").style.transform = "rotate(183deg)";
+        document.querySelector("#nb-4-8").style.transform = "rotate(195deg)";
+        document.querySelector("#nb-4-9").style.transform = "rotate(205deg)";
+}
+
+
+    document.querySelector(".c").addEventListener("click", moves);
+    function moves() {
+        document.querySelector("#nb-1-1").style.transform = "rotate(-204deg)";
+        document.querySelector("#nb-1-2").style.transform = "rotate(-194deg)";
+        document.querySelector("#nb-1-3").style.transform = "rotate(-184deg)";
+        document.querySelector("#nb-1-4").style.transform = "rotate(-173deg)";
+        document.querySelector("#nb-1-5").style.transform = "rotate(-165deg)";
+        document.querySelector("#nb-1-6").style.transform = "rotate(-155deg)";
+
+        document.querySelector("#nb-2-1").style.transform = "rotate(-114deg)";
+        document.querySelector("#nb-2-2").style.transform = "rotate(-101deg)";
+        document.querySelector("#nb-2-3").style.transform = "rotate(-89deg)";
+        document.querySelector("#nb-2-4").style.transform = "rotate(-77deg)";
+        document.querySelector("#nb-2-5").style.transform = "rotate(-67deg)";
+
+        document.querySelector("#nb-3-1").style.transform = "rotate(-17deg)";
+        document.querySelector("#nb-3-2").style.transform = "rotate(-8deg)";
+        document.querySelector("#nb-3-3").style.transform = "rotate(3deg)";
+        document.querySelector("#nb-3-4").style.transform = "rotate(15deg)";
+
+        document.querySelector("#nb-4-1").style.transform = "rotate(79deg)";
+        document.querySelector("#nb-4-2").style.transform = "rotate(92deg)";
+        document.querySelector("#nb-4-3").style.transform = "rotate(98deg)";
+        document.querySelector("#nb-4-4").style.transform = "rotate(106deg)";
+        document.querySelector("#nb-4-5").style.transform = "rotate(69deg)";
+        document.querySelector("#nb-4-6").style.transform = "rotate(82deg)";
+        document.querySelector("#nb-4-7").style.transform = "rotate(94deg)";
+        document.querySelector("#nb-4-8").style.transform = "rotate(106deg)";
+        document.querySelector("#nb-4-9").style.transform = "rotate(116deg)";
+}
+
+    document.querySelector(".d").addEventListener("click", movew);
+    function movew() {
+        document.querySelector("#nb-1-1").style.transform = "rotate(-298deg)";
+        document.querySelector("#nb-1-2").style.transform = "rotate(-288deg)";
+        document.querySelector("#nb-1-3").style.transform = "rotate(-278deg)";
+        document.querySelector("#nb-1-4").style.transform = "rotate(-267deg)";
+        document.querySelector("#nb-1-5").style.transform = "rotate(-259deg)";
+        document.querySelector("#nb-1-6").style.transform = "rotate(-249deg)";
+
+        document.querySelector("#nb-2-1").style.transform = "rotate(-208deg)";
+        document.querySelector("#nb-2-2").style.transform = "rotate(-195deg)";
+        document.querySelector("#nb-2-3").style.transform = "rotate(-183deg)";
+        document.querySelector("#nb-2-4").style.transform = "rotate(-171deg)";
+        document.querySelector("#nb-2-5").style.transform = "rotate(-161deg)";
+
+        document.querySelector("#nb-3-1").style.transform = "rotate(-111deg)";
+        document.querySelector("#nb-3-2").style.transform = "rotate(-102deg)";
+        document.querySelector("#nb-3-3").style.transform = "rotate(-91deg)";
+        document.querySelector("#nb-3-4").style.transform = "rotate(-79deg)";
+
+        document.querySelector("#nb-4-1").style.transform = "rotate(-15deg)";
+        document.querySelector("#nb-4-2").style.transform = "rotate(-2deg)";
+        document.querySelector("#nb-4-3").style.transform = "rotate(4deg)";
+        document.querySelector("#nb-4-4").style.transform = "rotate(12deg)";
+        document.querySelector("#nb-4-5").style.transform = "rotate(-25deg)";
+        document.querySelector("#nb-4-6").style.transform = "rotate(-12deg)";
+        document.querySelector("#nb-4-7").style.transform = "rotate(0deg)";
+        document.querySelector("#nb-4-8").style.transform = "rotate(12deg)";
+        document.querySelector("#nb-4-9").style.transform = "rotate(22deg)";
+}
+</script>
 </body>
 </html>
