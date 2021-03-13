@@ -343,6 +343,9 @@
 /* ABOUT US SECTION SSSSSSSS***************************************/
 #about-us {
   position: relative;
+  left: 7%;
+  bottom: 5%;
+  width: 87%;
 }
 .table{
   height: 100%;
@@ -351,6 +354,7 @@
 .aboutusheader {
   font-family: 'segoe ui',sans-serif;
   position: absolute;
+  font-weight: 600;
   top: 3%;
   left: 21%;
 
@@ -358,7 +362,7 @@
   padding: 10px;
   box-shadow: 4px 4px 6px;
   text-shadow: 2px 2px 4px;
-  color: black;
+  color: #000060;
 
   background-color: white;
   border-radius: 15px;
@@ -366,23 +370,24 @@
 
 .aboutusmechgif {
   position: absolute;
-  right: 0%;
+  right: 1%;
   height: 100%;
   width: 50%;
-}
+  background-color:#dee0e3;
+}/*
 .aboutuslayer2{
   position: absolute;
   top: 0%;
   left: 22%;
-}
+}*/
 
 .aboutuslayer1 {
 
   position: absolute;
   left: 0%;
-  top: 10%;
   height: 100%;
   width: 50%;
+  background-color: #dee0e3;
 }
 /*
 .aboutusmain {
@@ -412,11 +417,11 @@
 .aboutuswords {
   font-family: 'Montserrat', sans-serif;
   position: absolute;
-  color: black;
+  color: #4e5452;
   font-size: 1.7em;
   top: 11%;
   left: 5%;
-  line-height: 70px;
+  line-height: 250%;
 }
 
 /*END OF THE ABOUT US SECTION*/
