@@ -323,7 +323,7 @@
 #flowchart {
   text-align: center;
   background-color: #112d4e;
-  padding: 7% 0;
+  padding: 5% 7%;
 }
 
 .flowhead {
@@ -342,18 +342,12 @@
 
 /* ABOUT US SECTION SSSSSSSS***************************************/
 #about-us {
-  position: relative;
-  left: 7%;
-  bottom: 5%;
-  width: 87%;
-}
-.table{
-  height: 100%;
+  padding: 5% 7%;
+  background-color:#dee0e3;
 }
 
 .aboutusheader {
   font-family: 'segoe ui',sans-serif;
-  position: absolute;
   font-weight: 600;
   top: 3%;
   right: 21%;
@@ -368,11 +362,8 @@
   border-radius: 15px;
 }
 
-.aboutusmechgif {
-  position: absolute;
-  height: 100%;
-  width: 45%;
-  background-color:#dee0e3;
+.aboutuspic {
+  width: auto;
 }/*
 .aboutuslayer2{
   position: absolute;
@@ -381,8 +372,6 @@
 }*/
 
 .aboutuslayer1 {
-
-  position: absolute;
   right: 0;
   height: 100%;
   width: 55%;
@@ -407,7 +396,6 @@
 .aboutusquote {
   font-family: 'Pacifico', cursive;
   color: black;
-  position: relative;
   bottom: -50%;
   text-align: center;
   font-size: 0.9em;
@@ -415,7 +403,6 @@
 
 .aboutuswords {
   font-family: 'Montserrat', sans-serif;
-  position: absolute;
   color: #4e5452;
   font-size: 1em;
   top: 11%;
@@ -658,7 +645,7 @@ section {
       transform:scaleX(1);
       height: 30px;
       width: 100%;
-  } 
+  }
 
 }
 @keyframes ani1
@@ -680,7 +667,7 @@ section {
       transform:scaleX(0);
       height: 5px;
       opacity: 0.02;
-  } 
+  }
 
 }
 #gear1, #gear2, #gear3 {
@@ -689,7 +676,7 @@ section {
   float: left;
   position: absolute;
 }
-          
+
 #gear1 {
   top: 4px;
   left: 44px;
