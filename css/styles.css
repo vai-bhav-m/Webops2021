@@ -356,7 +356,7 @@
   position: absolute;
   font-weight: 600;
   top: 3%;
-  left: 21%;
+  right: 21%;
 
   font-size: 1 em;
   padding: 10px;
@@ -370,9 +370,8 @@
 
 .aboutusmechgif {
   position: absolute;
-  right: 1%;
   height: 100%;
-  width: 50%;
+  width: 45%;
   background-color:#dee0e3;
 }/*
 .aboutuslayer2{
@@ -384,9 +383,9 @@
 .aboutuslayer1 {
 
   position: absolute;
-  left: 0%;
+  right: 0;
   height: 100%;
-  width: 50%;
+  width: 55%;
   background-color: #dee0e3;
 }
 /*
@@ -403,24 +402,23 @@
   position: absolute;
   left: 20%;
   top: 90%;
-}
+}*/
 
 .aboutusquote {
   font-family: 'Pacifico', cursive;
-  color: white;
-  position: absolute;
-  bottom: 0%;
+  color: black;
+  position: relative;
+  bottom: -50%;
   text-align: center;
-  font-size: 1.3em;
-}*/
+  font-size: 0.9em;
+}
 
 .aboutuswords {
   font-family: 'Montserrat', sans-serif;
   position: absolute;
   color: #4e5452;
-  font-size: 1.7em;
+  font-size: 1em;
   top: 11%;
-  left: 5%;
   line-height: 250%;
 }
 
