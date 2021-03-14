@@ -593,6 +593,7 @@ section {
   background-color:#000000;
   z-index:1;
   opacity:0.9;
+  border-radius:15px;
 }
 .navbutton{
 
