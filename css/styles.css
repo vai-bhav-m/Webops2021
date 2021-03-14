@@ -673,14 +673,11 @@ section {
   }
 
 }
-#gear1, #gear2, #gear3 {
+#gear1 {
   color: #888;
   display: block;
   float: left;
   position: absolute;
-}
-
-#gear1 {
   top: 4px;
   left: 44px;
 }
