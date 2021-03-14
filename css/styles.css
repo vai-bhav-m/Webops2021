@@ -703,3 +703,12 @@ section {
 @-moz-keyframes spin-back { 100% { -moz-transform: rotate(-360deg); } }
 @-webkit-keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); } }
 @keyframes spin-back { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+.emptybox
+{
+  background-color:#000000;
+  position:absolute;
+  height:60px;
+  width:100%;
+  top:0px;
+}
